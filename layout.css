@@ -1,0 +1,351 @@
+﻿/*các xử lý định dạng cho layout.html*/
+@import url('basic.css');
+#main
+{
+	width:980px;/*chuẩn màn hình 1024*/
+	height:auto;
+	margin:0 auto;
+}
+.top
+{
+	margin:10px 0;
+}
+.search
+{
+	width:auto;
+	float:right;
+	text-align:right;
+	
+}
+.top-links
+{
+	width:auto;
+	float:right;
+	margin:4px 30px 0 0;
+}
+.header/*độ rộng tự động trong div cha*/
+{
+	height:140px;
+	background:url('../imgs/header_bg.jpg') no-repeat center;
+}
+.menu/*độ rộng tự động trong div cha*/
+{
+	height:45px;
+	margin :10px 0; /*cách ngoài*/
+	background:url('../imgs/menu_bg.jpg')repeat-x;
+}
+.menu h3
+{
+	font:normal 12px tahoma;
+	width: auto;
+	float: left;
+	padding:4px 20px ;
+	color:#fff;
+}
+.menu h3:hover
+{
+	background:url('../imgs/menu_bg.jpg') repeat-x bottom;
+}
+.content
+{
+	width:730px;
+	height:auto;
+	float: left;
+}
+.view
+{
+	width:480px;
+	height:auto;
+	float: left;
+	
+}
+.intros
+{
+	height:200px;
+	background:green;
+}
+.focus
+{
+	height:auto;
+	margin:10px 0;
+}
+.f3
+{
+	width:150px;
+	height:200px;
+	float:left;
+	overflow:hidden;
+}
+.fc
+{
+	margin:0 15px;
+}
+.f3 img
+{
+	width:150px;
+	height:120px;
+}
+.f3 h3
+{
+	font: bold 12px tahoma;
+	text-align:justify;
+	line-height:20px;
+	margin:15px 0;
+	
+}
+
+.sections
+{
+	height:auto;
+	margin-bottom:10px;
+}
+.sections-titles
+{
+	height: 22px;
+	background:url("../imgs/sections-titles.jpg") repeat-x;
+}
+.ltab, .ctab, .rtab
+{
+	height:22px;
+	float: left;
+}
+.ltab
+{
+	width:7px;
+	background: url("../imgs/ltab.jpg") no-repeat left;
+}
+.rtab
+{
+	width:13px;
+	background: url('../imgs/rtab.jpg') no-repeat right;
+}
+.ctab
+{
+	width: auto;
+	background: url("../imgs/ctab.jpg") repeat-x ;
+}
+
+.ctab h3
+{
+	padding: 4px 15px;
+	color:#fff;
+	font: bold 12px tahoma;
+}
+
+.sections-links
+{
+	float: left;
+	margin:5px 0 0 20px;
+	
+}
+.sections-contents
+{
+	height:auto;
+	padding-top:5px;	
+	
+}
+.section-contents-left
+{
+	width:250px;
+	height:320px;
+	float:left;
+	
+}
+.section-contents-left img
+{
+	width:250px;
+	height: 180px;
+}
+.section-contents-left h3
+{
+	font: bold 18px tahoma;
+	color:#555;
+	text-align:justify;
+	line-height:20px;
+	margin:10px 0;
+}
+.section-contents-left p 
+{
+	font :normal 12px tahoma;
+	text-align:justify;
+	text-indent:15px;
+	line-height:18px;
+}
+
+.section-contents-right
+{
+	width:200px;
+	height:auto;
+	float:right;
+	
+}
+.section-contents-right h3
+{
+	display: block;
+	font: normal 12px tahoma;
+	text-align: justify;/*căn đều 2 bên*/
+	border-bottom:1px dotted #aaa;
+	padding-bottom:6px;
+	margin-bottom:6px;
+	
+}
+.mores
+{
+	background:#ddd;
+	text-align:right;
+	padding:8px 5px;
+	font-weight:bold;
+	display: block;
+	margin-top:15px;
+	font-style:italic;
+	
+}
+.mores a
+{
+	color:#444;
+	
+}
+.mores a:hover
+{
+	color:#07C9FF;
+}
+
+.rview
+{
+	width:240px;
+	height:auto;
+	float:right;
+}
+
+.titles
+{
+	background:url("../imgs/titles.jpg")repeat-x center;
+	color:#fff;
+	font: bold 12px tahoma;
+	text-transform:uppercase;
+	padding:6px;
+}
+.news
+{
+	height:auto;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+.news img
+{
+	width:100px;
+	height:80px;
+	float:left;
+	margin-right:10px;
+	
+}
+.img-border img
+{
+	padding:2px;
+	border:1px solid #aaa;
+	
+}
+.news h3
+{
+	font: normal 13px tahoma;
+	text-align:justify;
+	line-height:20px;
+	margin-bottom:5px;
+}
+.news h3:hover
+{
+	background:#efefee;
+}
+.most-view
+{
+	margin-bottom:20px;
+	
+}
+.most-view marquee
+{
+	height: 300px;
+	background:#efefff;
+	
+}
+.most-view marquee h3
+{
+	font: normal 12px tahoma;
+	text-align:justify;
+	line-height:20px;
+	border-bottom:1px dotted #aaa;
+	margin:0 5px 8px 5px;
+	padding-bottom:8px;
+}
+.for-advs img
+{
+	width:240px;
+	height:auto;
+	margin-bottom:10px;
+	
+}
+.bview
+{
+	height:120px;
+	background:#666;
+	margin-top:10px;
+}
+
+.rconcontent
+{	
+	width:240px;
+	height:auto;
+	float:right;
+}
+.video
+{
+	margin-bottom:20px;
+	
+}
+.support 
+{
+	height:300px;
+	background:#efefff;
+	margin-bottom:25px;
+	
+}
+.menu-bottom
+{
+	margin:20px 0;
+	padding:8px 6px;
+	background:#ddd;
+	font: bold 12px tahoma;
+	
+}
+.footer
+{
+	height:auto;
+	margin:10px 0;
+}
+.footer img
+{
+	height:70px;
+	float:left
+}
+.footer-left
+{
+	width:400px;
+	float:left;
+	text-align:left;
+	line-height:20px;
+	
+}
+.footer-left h3,.footer-right h3
+{
+	background:#ddd;
+	padding:8px 6px;
+	margin-bottom:10px;
+	text-transform:uppercase;
+}
+.footer-right
+{
+	float:right;
+	width:400px;
+	text-align:left;
+	line-height:20px;
+}
+
